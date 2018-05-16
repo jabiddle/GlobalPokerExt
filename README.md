@@ -3,7 +3,7 @@
 
 ## Developer's Note
 
-This project contains the very first lines of JavaScript I ever wrote. Put simply, it was useful to me as a way to learn about JavaScript and the DOM. The code could use some serious refactoring and several features are left half implemented in the source. That said, it does work as of May 16, 2018 for both Gold and SweepsCash games with only minor bugs. 
+This project is not currently under development. It contains the very first lines of JavaScript I ever wrote. Put simply, it was useful to me as a way to learn about JavaScript and the DOM. The code could use some serious refactoring and several features are left half implemented in the source. That said, all listed features do work as of May 16, 2018 for both Gold and SweepsCash games with only minor bugs. 
 
 Eventually the project will be refactored with much cleaner code so don't forget to hit Watch!
 
@@ -22,6 +22,14 @@ Added checkbox options, bottom left.
 Statistic Display: The statistics are hardcoded. The first line shows average bets for preflop, flop, turn, and river. The second line shows cumulative fold percentage for preflop, flop, turn, and river. Quickly identify agressive players with low fold percentages or tight players with high fold percentages!
 
 ![Example Usage](http://jabiddle.com/images/github/globalpoker_multitable.png)
+
+
+## Future Features
+
+- Local storage for statistics
+- Summary page for wins/losses/hands
+- More statistics (Continuation bets, win/loss, hand odds, player categorization, etc)
+- AutoBetting
 
 ## Installation
 
