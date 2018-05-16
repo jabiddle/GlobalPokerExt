@@ -1,0 +1,31 @@
+{
+  "name": "GlobalPokerExt",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Adds statistic gathering and useful multitabling features to the GlobalPoker site.",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "https://public.globalpoker.com/poker-client/poker/10/external-table"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://public.globalpoker.com/poker-client/poker/10/external-table"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
